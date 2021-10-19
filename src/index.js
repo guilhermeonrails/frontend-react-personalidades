@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Personalidades from './components/Personalidades';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Personalidades />
   </React.StrictMode>,
   document.getElementById('root')
 );
